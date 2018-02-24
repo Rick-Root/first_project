@@ -13,8 +13,35 @@ header .container, main .container, footer .container {
 
 header {
   background: white;
+  overflow: auto;
+}
+
+header h1 {
+  float: left;
+  width: 570px;
+}
+
+header nav {
+  float: right;
+  width: 285;
 }
 
 main {
   background: white;
+}
+
+main .main {
+  float: left;
+  width: 570px;
+}
+
+
+footer .contact {
+  float: left;
+  width: 570px;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285;
 }
