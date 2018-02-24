@@ -6,7 +6,7 @@ header, main, footer {
   min-width: 855px;
 }
 
-header .container, main .container, footer .container {
+.container {
   max-width: 855px;
   margin: auto;
 }
@@ -23,16 +23,22 @@ header h1 {
 
 header nav {
   float: right;
-  width: 285;
+  width: 285px
 }
 
 main {
   background: white;
+  overflow: auto;
 }
 
 main .main {
   float: left;
   width: 570px;
+}
+
+.pic {
+  float: right;
+  width: 285px;
 }
 
 
@@ -43,5 +49,5 @@ footer .contact {
 
 footer .sitemap {
   float: right;
-  width: 285;
+  width: 285px;
 }
